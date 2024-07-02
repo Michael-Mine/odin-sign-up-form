@@ -26,7 +26,6 @@ p, h1, h2, h3, h4, h5, h6 {
     isolation: isolate;
 }
 /* My code */
-
 @font-face {
     font-family: "inter"; 
     src:
@@ -34,7 +33,6 @@ p, h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: "popins"; 
     src:
@@ -42,7 +40,6 @@ p, h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-style: normal;
 }
-
 .logo-background {
     position: absolute; 
     top: 250px;
@@ -54,12 +51,14 @@ p, h1, h2, h3, h4, h5, h6 {
     color: aliceblue;
     font-size: 7em; 
 }
-
 body {
-    background-color: #9fce6e;
     font-family: "inter";
     color: #581810;
 }
+body, .main-section-head, .main-section-footer {
+    background-color: rgba(134,189,95,255);
+}
+
 form {
    font-size: 0.9em;
 }
@@ -75,13 +74,10 @@ ul {
 }
 button {
     font-weight: bold;
-  
     color: white;
-    background-color: #204c0a;
-  
+    background-color: rgb(32,76,10);
     border: none;
     border-radius: 3px;
-  
     padding: 10px 40px;
     cursor: pointer;
 }
@@ -93,7 +89,6 @@ button {
     flex-direction: column;
 }
 .main-section-head {
-    background-color: #9fce6e;
     padding: 50px;
     height: 250px;
     display: flex;
@@ -102,12 +97,19 @@ button {
     font-weight: bold;
 }
 .main-section-body {
-    background-color: #a1cca0;
+    background-color: rgba(167,208,166,255);
     padding: 50px;
 }
 .main-section-footer {
-    background-color:  #9fce6e;
     padding: 50px;
     height: 100%;
     flex-grow: 1;
 }
+input[type="password"]:invalid {
+    border: 2px solid red;
+}
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 0 0 5px 1px blue;
+}
+
