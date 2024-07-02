@@ -43,26 +43,40 @@ p, h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
+.logo-background {
+    position: absolute; 
+    top: 250px;
+    background: rgb(82, 122, 102, 0.6); 
+    display: flex;
+    justify-content: center;
+    width: 490px;
+    font-family: "popins";
+    color: aliceblue;
+    font-size: 7em; 
+}
+
 body {
     background-color: aqua;
     font-family: "inter";
+    color: brown;
 }
 form {
-   
+   font-size: 0.9em;
 }
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-.button {
-   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 500px;
+    
 }
 button {
-    font-size: 16px;
     font-weight: bold;
   
-    color: #FFFFFF;
+    color: white;
     background-color: green;
   
     border: none;
@@ -75,11 +89,17 @@ button {
     display: flex;
 }
 .main-section {
-    width: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 .main-section-head {
     background-color: aquamarine;
     padding: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
 }
 .main-section-body {
     background-color: rgb(0, 255, 217);
@@ -88,4 +108,6 @@ button {
 .main-section-footer {
     background-color:  aquamarine;
     padding: 50px;
+    height: 100%;
+    flex-grow: 1;
 }
