@@ -56,9 +56,9 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background-color: aqua;
+    background-color: #9fce6e;
     font-family: "inter";
-    color: brown;
+    color: #581810;
 }
 form {
    font-size: 0.9em;
@@ -77,7 +77,7 @@ button {
     font-weight: bold;
   
     color: white;
-    background-color: green;
+    background-color: #204c0a;
   
     border: none;
     border-radius: 3px;
@@ -93,7 +93,7 @@ button {
     flex-direction: column;
 }
 .main-section-head {
-    background-color: aquamarine;
+    background-color: #9fce6e;
     padding: 50px;
     height: 250px;
     display: flex;
@@ -102,11 +102,11 @@ button {
     font-weight: bold;
 }
 .main-section-body {
-    background-color: rgb(0, 255, 217);
+    background-color: #a1cca0;
     padding: 50px;
 }
 .main-section-footer {
-    background-color:  aquamarine;
+    background-color:  #9fce6e;
     padding: 50px;
     height: 100%;
     flex-grow: 1;
